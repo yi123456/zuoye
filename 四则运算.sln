@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "四则运算", "四则运算\四则运算.vcxproj", "{E758ADA0-BC81-4A95-A5C3-3D674559AF7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject1", "TestProject1\TestProject1.vcxproj", "{2A62AC99-5264-41D9-9D6F-5B38DFFA5C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE90D40C-5A1A-4CF7-8CA2-36988C2FAC75}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		四则运算.vsmdi = 四则运算.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = 四则运算.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E758ADA0-BC81-4A95-A5C3-3D674559AF7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E758ADA0-BC81-4A95-A5C3-3D674559AF7C}.Debug|Win32.Build.0 = Debug|Win32
+		{E758ADA0-BC81-4A95-A5C3-3D674559AF7C}.Release|Win32.ActiveCfg = Release|Win32
+		{E758ADA0-BC81-4A95-A5C3-3D674559AF7C}.Release|Win32.Build.0 = Release|Win32
+		{2A62AC99-5264-41D9-9D6F-5B38DFFA5C87}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A62AC99-5264-41D9-9D6F-5B38DFFA5C87}.Debug|Win32.Build.0 = Debug|Win32
+		{2A62AC99-5264-41D9-9D6F-5B38DFFA5C87}.Release|Win32.ActiveCfg = Release|Win32
+		{2A62AC99-5264-41D9-9D6F-5B38DFFA5C87}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

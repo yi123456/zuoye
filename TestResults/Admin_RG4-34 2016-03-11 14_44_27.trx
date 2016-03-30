@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8411f1d5-ea8b-4aa1-9e43-2cb710d1fcb6" name="Admin@RG4-34 2016-03-11 14:44:27" runUser="RG4-34\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="cf4f6250-72ff-4ce2-aff1-fcb290deb816">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_RG4-34 2016-03-11 14_44_27" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-03-11T14:44:27.3350091+08:00" queuing="2016-03-11T14:44:28.1462106+08:00" start="2016-03-11T14:44:28.2398107+08:00" finish="2016-03-11T14:44:28.6454114+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\四则运算\四则运算\debug\defaulttest.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="639a26c8-364b-4334-95c7-8eb5d5665126" />
+      <TestMethod codeBase="D:/四则运算/四则运算/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, DefaultTest, Version=1.0.5914.26533, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="639a26c8-364b-4334-95c7-8eb5d5665126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="639a26c8-364b-4334-95c7-8eb5d5665126" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="RG4-34" duration="00:00:00.0077439" startTime="2016-03-11T14:44:28.2710108+08:00" endTime="2016-03-11T14:44:28.6298114+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="639a26c8-364b-4334-95c7-8eb5d5665126">
+    </UnitTestResult>
+  </Results>
+</TestRun>
